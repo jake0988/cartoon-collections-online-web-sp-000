@@ -24,9 +24,9 @@ end
 def find_the_cheese array
   collect = ["cheddar", "gouda", "camembert"]
   che = []
-  array.include?(collect) do |cheese|
-    binding.pry
-    che.push(cheese)
+  array.each do |cheese|
+    if collect.include?(cheese)
+    che << cheese
   end
   che
 end
