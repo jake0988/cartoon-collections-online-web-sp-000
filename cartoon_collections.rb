@@ -24,12 +24,12 @@ end
 def find_the_cheese array
   collect = ["cheddar", "gouda", "camembert"]
   che = []
-  if array.include?(collect)
+  # if array.include?(collect)
     array.find { |blah| collect }
 
       array
       true
-  end
+  
   #  puts che
   #  if che.empty?
   #    nil
