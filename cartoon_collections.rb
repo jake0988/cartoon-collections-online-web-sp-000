@@ -32,7 +32,7 @@ def find_the_cheese array
     false
   end
    puts che
-   if empty?(che)
+   if che.empty?
      nil
    end
 end
