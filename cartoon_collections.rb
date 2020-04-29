@@ -27,7 +27,7 @@ def find_the_cheese array
   if array.include?(collect)
     array.detect { |blah| collect }
 
-      che << cheese
+      che << blah
       true
   end
    puts che
