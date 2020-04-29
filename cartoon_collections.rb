@@ -26,7 +26,8 @@ def find_the_cheese array
   che = []
   array.each do |cheese|
     if collect.include?(cheese)
-    che << cheese
+      che << cheese
+      true
   end
   che
 end
