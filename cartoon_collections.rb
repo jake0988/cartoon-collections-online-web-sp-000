@@ -27,8 +27,8 @@ def find_the_cheese array
   # if array.include?(collect)
     array.find { |blah| collect }
 
-      array
-    
+      
+
 
   #  puts che
   #  if che.empty?
