@@ -27,7 +27,7 @@ def find_the_cheese array
     # collect do |coll|
     #  if array.include?(coll)
     result = array.find { |ar| coll }
-     end
+  
      result
    end
 
