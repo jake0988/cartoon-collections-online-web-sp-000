@@ -28,6 +28,8 @@ def find_the_cheese array
     if collect.include?(cheese)
       che << cheese
       true
+    end
+    false
   end
   che
 end
