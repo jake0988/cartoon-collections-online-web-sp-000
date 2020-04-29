@@ -32,4 +32,5 @@ def find_the_cheese array
     false
   end
    puts che
+   che
 end
