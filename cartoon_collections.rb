@@ -26,11 +26,11 @@ def find_the_cheese array
   che = []
     collect.each do |coll|
      if array.include?(coll)
-    che << array.find(coll)
+    array.find(coll)
      end
    end
 
-   che
+
 
 
   #  puts che
