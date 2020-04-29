@@ -30,10 +30,10 @@ def find_the_cheese array
       array
       true
   end
-   puts che
-   if che.empty?
-     nil
-   else
-     che
-   end
+  #  puts che
+  #  if che.empty?
+  #    nil
+  #  else
+  #    che
+  #  end
 end
