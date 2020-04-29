@@ -24,7 +24,7 @@ end
 def find_the_cheese array
   collect = ["cheddar", "gouda", "camembert"]
   che = []
-    collect.each do |coll|
+    collect do |coll|
      if array.include?(coll)
     array.find { |ar| coll }
      end
