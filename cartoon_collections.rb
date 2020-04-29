@@ -28,8 +28,8 @@ def find_the_cheese array
     array.find { |blah| collect }
 
       array
-      true
-  
+    
+
   #  puts che
   #  if che.empty?
   #    nil
