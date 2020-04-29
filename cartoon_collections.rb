@@ -31,5 +31,7 @@ def find_the_cheese array
    puts che
    if che.empty?
      nil
+   else
+     che
    end
 end
