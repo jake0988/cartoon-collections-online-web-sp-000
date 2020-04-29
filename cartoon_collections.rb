@@ -27,8 +27,6 @@ def find_the_cheese array
   array.find do |cheese|
       che << cheese
       true
-    end
-    false
   end
    puts che
    if che.empty?
