@@ -22,12 +22,12 @@ def long_planeteer_calls array
 end
 
 def find_the_cheese array
-  collect = []
-  if array.find do |cheese|
-    cheese.include? ["cheddar", "gouda", "camembert"]
-    collect << cheese
+  collect = ["cheddar", "gouda", "camembert"]
+  che
+  array.include?(collect) do |cheese|
+    che << cheese
   end
-
+  che
 
 end
 collect
