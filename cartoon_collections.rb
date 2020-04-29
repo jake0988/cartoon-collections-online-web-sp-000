@@ -28,8 +28,4 @@ def find_the_cheese array
     che << cheese
   end
   che
-
-end
-collect
-
 end
