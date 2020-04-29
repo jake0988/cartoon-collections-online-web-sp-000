@@ -28,7 +28,7 @@ def find_the_cheese array
      che << collect & array
    end
 
-
+   che
 
 
   #  puts che
